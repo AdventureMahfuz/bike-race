@@ -1,0 +1,1340 @@
+/**
+============================================================================
+Index Of Content
+============================================================================
+>>>>color variable <<<<<
+ 1. DEFAULT STYLE START
+===================================================================================
+===============================  FRONT PAGE STYLE START  ==========================
+===================================================================================
+ 2. Top Bar style start
+ 3. Mani menu style start
+ 4. hero section start
+ 5. events update section start
+ 6. about us section start
+ 7. time counter section start
+ 8. upcoming events section start
+ 9. our overview section start
+ 10. gallery section start
+ 11. sponsor section start
+ 12. newsletter section start
+ 13. contact us section start
+ 14. footer section start
+===================================================================================
+===============================  EVENT PAGE STYLE START  ==========================
+===================================================================================
+ 15. BREADCRUMB-SECTION START
+ 16. EVENTS DETAILS START
+===================================================================================
+===============================  REGISTRATION PAGE STYLE START  ===================
+===================================================================================
+ 17. REGISTRATION FORM START
+ */
+/*
+=============================================================================
+>>>> color variable <<<<
+==============================================================================
+*/
+:root {
+    --theme-color: #DF0024;
+}
+:root {
+    --black-color: #000;
+}
+:root {
+    --white-color: #fff
+}
+/*
+=============================================================================
+ 1. DEFAULT STYLE START
+==============================================================================
+*/
+body {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    background: #f1f1f1;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+p{
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.section-padding {
+    padding: 80px 0;
+}
+/**
+================================================================================
+  1.  DEFAULT STYLE END
+================================================================================
+*/
+/**
+===================================================================================
+===============================  FRONT PAGE STYLE START  ==========================
+===================================================================================
+ */
+/**
+================================================================================
+ 2.   Top Bar style start
+================================================================================
+*/
+.top-bar {
+    background: var(--black-color);
+}
+.contact-info span {
+    padding-top: 2px;
+    display: inline-block;
+    color: var(--white);
+    font-family: lato, sans-serif;
+    font-size: 14px;
+}
+.contact-info span span {
+    text-transform: uppercase;
+}
+.social-links a i.fa {
+    color: var(--black-color);
+    background: var(--white);
+    padding: 5px;
+    display: inline-block;
+    margin: 5px 5px 0 0;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.social-links a i.fa:hover{
+    background: var(--theme-color);
+    transition: all 1s;
+}
+.social-links a i.fa.fa-facebook {
+    padding: 5px 8px;
+}
+.login-registration-menu {
+    text-align: right;
+}
+ul#login-reg-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul#login-reg-menu li {
+    display: inline-block;
+}
+ul#login-reg-menu li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ul#login-reg-menu li a:hover {
+    background: var(--theme-color);
+    transition: all 1s;
+}
+ul#login-reg-menu li.active a {
+    background: var(--theme-color);
+}
+/*
+=====================================================================================
+2. Top Bar style end
+=====================================================================================
+*/
+/*
+=====================================================================================
+3. Mani menu style start
+=====================================================================================
+*/
+.sticky_menu {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    transition: all 1s;
+}
+.sticky_menu .menu_wrap{
+    background: var(--theme-color);
+    transition: all 1s;
+}
+.sticky_menu .menu_wrap .logo img{
+    width: 20%;
+    transition: all 1s;
+}
+.sticky_menu ul#nav li a:hover {
+    border-bottom: 3px solid var(--black-color);
+    color: var(--black-color);
+    transition: all .5s;
+}
+.sticky_menu ul#nav li ul li a:hover {
+    border-bottom: none;
+    color: var(--theme-color);
+    transition: all 1s;
+}
+.slicknav_menu{
+    display: none;
+    background: none;
+}
+.responsive-mobile-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+.slicknav_btn {
+    background-color: var(--theme-color);
+    margin: 0;
+    border-radius: 0;
+}
+.slicknav_nav a:hover {
+    background: none;
+    border: 1px dashed #ccc;
+    color: var(--white-color);
+}
+.slicknav_nav .slicknav_arrow {
+    display: none;
+}
+.slicknav_nav .slicknav_row:hover {
+    background: none;
+    border: 1px dashed #ccc;
+    color: var(--white-color);
+}
+.slicknav_nav{
+    width: 160px;
+    background: var(--theme-color);
+}
+div.menu_wrap {
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    transition: all 1s;
+}
+.logo img {
+    width: 50%;
+    transition: all 1s;
+}
+nav.main-menu {
+    margin-top: 12px;
+    z-index: 9999;
+    transition: all 1s;
+}
+ul#nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul#nav li {
+    display: inline-block;
+    position: relative;
+}
+ul#nav li a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    color: var(--white);
+}
+ul#nav li a:hover {
+    border-bottom: 3px solid var(--theme-color);
+    color: var(--theme-color);
+    transition: all .5s;
+}
+/*ul#nav li.active a {
+    border-bottom: 3px solid var(--theme-color);
+    color: var(--theme-color);
+}*/
+ul#nav li a:focus {
+    outline: none;
+}
+/*dropdown menu*/
+ul#nav li:hover ul{
+    opacity: 1;
+    top: 45px;
+    visibility: visible;
+    z-index: 1;
+    transition: all 1s;
+}
+ul#nav li ul{
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;
+}
+ul#nav li ul:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--black-color);
+    opacity: .6;
+    z-index: -1;
+}
+ul#nav li ul li{
+    display: block;
+    text-align: left;
+    border-bottom: 1px dashed var(--theme-color);
+    color: var(--theme-color);
+    transition: all 1s;
+}
+ul#nav li ul li:last-child{
+    border-bottom: none;
+}
+ul#nav li ul li a:hover{
+    border-bottom: none;
+    color: var(--theme-color);
+    transition: all 1s;
+}
+/*
+================================================================================
+3. main menu style end
+================================================================================
+*/
+/**
+================================================================================
+4. hero section start
+================================================================================
+ */
+.single-slide-item.item-1 {
+    background-image: url("../images/slider-1.jpg");
+    background-size: cover;
+    height: 96vh;
+}
+.single-slide-item.item-2 {
+    background-image: url("../images/slider-2.jpg");
+    background-size: cover;
+    height: 96vh;
+}
+.single-slide-item.item-3 {
+    background-image: url("../images/slider-3.jpg");
+    background-size: cover;
+    height: 96vh;
+}
+#slider .owl-dots {
+    position: absolute !important;
+    top: 45%;
+    right: 5%;
+    transform: rotateZ(90deg);
+}
+#slider .owl-dots .owl-dot {
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+#slider .owl-dots .owl-dot.active:focus {
+    outline: none;
+}
+#slider .owl-dots .owl-dot.active {
+    background: var(--theme-color);
+    border: none;
+}
+.single-slide-item {
+    position: relative;
+}
+.bg-overly {
+    position: absolute;
+    width: 100%;
+    height: 96vh;
+    background: var(--black-color);
+    opacity: 0.4;
+}
+.item-content {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.item-content h1 {
+    color: var(--theme-color);
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.item-content h1 span {
+    color: var(--white);
+}
+.item-content p {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+.hero-cont-btn {
+    display: inline-block;
+}
+.hero-cont-btn a {
+    color: var(--white);
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    border: 2px solid var(--white);
+    padding: 10px 30px;
+}
+.hero-cont-btn a:hover {
+    box-shadow: 6px 7px 8px #999;
+    transition: all 1s;
+}
+.hero-more-link {
+    display: inline-block;
+}
+.hero-more-link a {
+    color: var(--white);
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    padding: 14px 30px;
+    background: var(--theme-color);
+    margin-left: 25px;
+}
+.hero-more-link a:hover{
+    box-shadow: 6px 7px 8px #999;
+    transition: all 1s;
+}
+/**
+================================================================================
+4. hero section end
+================================================================================
+ */
+/**
+================================================================================
+ 5.   events update section start
+================================================================================
+*/
+.events-common-style {
+    padding: 20px 0;
+    display: block;
+    float: left;
+    width: 25%;
+}
+.events-common-style i.fa {
+    color: var(--theme-color);
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.events-common-style p {
+    color: var(--theme-color);
+    font-size: 18px;
+    font-family: lato, sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+}
+.event-calender, .event-time {
+    border-right: 5px solid #C1C1C1;
+}
+.event-register {
+    background: var(--theme-color);
+}
+.event-register.events-common-style i.fa {
+    color: var(--white);
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.event-register.events-common-style p {
+    color: var(--white);
+}
+/**
+================================================================================
+ 5.   events update section end
+================================================================================
+*/
+/**
+================================================================================
+ 6.   about us section start
+================================================================================
+*/
+.about-us {
+    overflow: hidden;
+}
+.about-image {
+    display: block;
+    width: 50%;
+    float: left;
+}
+.about-content {
+    padding-right: 60px;
+    padding-left: 100px;
+    width: 50%;
+    float: right;
+    padding-top: 125px;
+}
+.about-content h1 {
+    margin-bottom: 0;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: var(--theme-color);
+}
+.about-content p {
+    padding: 40px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: var(--black-color);
+}
+.about-btn a {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: var(--theme-color);
+    padding: 15px 25px;
+    color: var(--white);
+    text-decoration: none;
+}
+.about-btn a:hover{
+    box-shadow: 6px 7px 8px #999;
+    transition: all 1s;
+}
+/**
+================================================================================
+ 6.   about us section end
+================================================================================
+*/
+/**
+================================================================================
+ 7.    time counter section start
+================================================================================
+*/
+.event-countdown {
+    background-image: url("../images/counter-bg.png");
+    background-repeat: repeat;
+    padding: 45px 0;
+}
+.single-count {
+
+}
+.single-count h2 {
+    color: #d3d3d3;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: lato, sans-serif;
+    text-transform: uppercase;
+}
+.single-count h2 span {
+    position: relative;
+    color: var(--theme-color);
+    background: #111A22;
+    font-size: 150px;
+    font-family: lato, sans-serif;
+    font-weight: 900;
+    box-shadow: 2px 2px 5px var(--black-color);
+    padding: 0 15px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.single-count h2 span:before {
+    position: absolute;
+    content: "";
+    left: 6px;
+    top: 44%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/counger-style.png");
+    background-repeat: no-repeat;
+}
+.single-count h2 span:after {
+    position: absolute;
+    content: "";
+    left: 194px;
+    top: 44%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/counger-style.png");
+    background-repeat: no-repeat;
+}
+.single-count h2 span span {
+    position: absolute;
+    left: 12px;
+    top: 40%;
+    width: 90%;
+    height: 1px;
+    border: 1px solid #111A22;
+    box-shadow: none;
+}
+/**
+================================================================================
+ 7.    time counter section end
+================================================================================
+*/
+/**
+================================================================================
+ 8.    upcoming events section start
+================================================================================
+*/
+.upcoming-section-title h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--theme-color);
+    margin-bottom: 40px;
+}
+.single-event {
+    background: var(--white);
+}
+.event-image {
+    position: relative;
+}
+.event-image:hover .event-img-overly {
+    opacity: 0.2;
+}
+.event-image:hover span {
+    opacity: 1;
+}
+.event-img-overly {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: var(--theme-color);
+    opacity: 0;
+    z-index: 1;
+    transition: all 1s !important;
+}
+.event-image span {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    color: var(--white);
+    background: var(--theme-color);
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: lato, sans-serif;
+    z-index: 1;
+    opacity: 0;
+    transition: all 1s !important;
+}
+.event-image span a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+.event-content {
+    padding: 0 20px;
+}
+.event-content h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: lato, sans-serif;
+    color: var(--theme-color);
+    padding-top: 15px;
+}
+.event-content a{
+    text-decoration: none;
+}
+.event-content h4 {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: lato, sans-serif;
+    color: var(--black-color);
+}
+.event-content p {
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    color: #B6B6B6;
+    text-align: justify;
+}
+.vacancy-reg {
+    border-top: 2px solid #F1F1F1;
+    padding: 10px 20px;
+}
+.seat {
+    display: inline-block;
+}
+.seat i.fa {
+    color: var(--theme-color);
+}
+.seat i.fa span {
+    color: var(--black-color);
+    margin-left: 10px;
+    font-family: lato, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+div.register {
+    display: inline-block;
+    margin-left: 25px;
+}
+div.register i.fa {
+    color: var(--theme-color);
+}
+div.register i.fa span {
+    color: var(--black-color);
+    margin-left: 10px;
+    font-family: lato, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+#events-slide .owl-nav {
+    text-align: right;
+    margin-top: 30px;
+}
+#events-slide .owl-nav .owl-prev:focus {
+    outline: none;
+}
+#events-slide .owl-nav .owl-prev span {
+    background: var(--theme-color);
+    font-size: 50px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    color: var(--white);
+    padding-top: 5px;
+}
+#events-slide .owl-nav .owl-next:focus {
+    outline: none;
+}
+#events-slide .owl-nav .owl-next span {
+    background: var(--black-color);
+    font-size: 50px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: var(--white);
+    padding-top: 5px;
+}
+
+/**
+================================================================================
+ 8.    upcoming events section end
+================================================================================
+*/
+/**
+================================================================================
+ 9.    our overview section start
+================================================================================
+*/
+/*.our-overview {
+    background: var(--white);
+    text-align: center;
+    overflow: hidden;
+}
+.overview-info {
+    float: left;
+    display: inline-block;
+    padding: 90px 70px;
+}
+.overview-content h2 {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--theme-color);
+    margin-bottom: 25px;
+}
+.overview-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-color);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.icon-common-style {
+    float: left;
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+}
+.icon-common-style i.fa {
+    color: var(--theme-color);
+    font-size: 45px;
+}
+.experience-icon.icon-common-style {
+    margin-right: 30px;
+}
+.content-common-style {
+    text-align: left;
+    display: inline-block;
+    margin-left: -60px;
+}
+.content-common-style p {
+    font-size: 30px;
+    border-left: 1px solid var(--theme-color);
+    padding-left: 20px;
+    float: right;
+    display: inline-block;
+}
+.content-common-style p span {
+    font-size: 13px;
+}
+.overview-video-area {
+    float: right;
+    display: inline-block;
+}
+.single-video-item {
+    background: #F1F1F1;
+    display: inline-block;
+}
+.single-video-item h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: var(--theme-color);
+    font-weight: 700;
+}
+.single-video-item p {
+    font-size: 16px;
+    padding-right: 220px;
+}
+.video-thumb {
+    position: relative;
+}
+.video-thumb img {
+    border: 2px solid var(--theme-color);
+}
+.play-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.play-icon a i.fa {
+    position: absolute;
+    left: 50%;
+    top: 41%;
+    width: 100%;
+    height: 100%;
+    color: var(--theme-color);
+    font-size: 60px;
+}
+#overview-video-slide .owl-nav {
+    right: 52px;
+    margin-top: 60px;
+    position: absolute;
+    top: 0;
+}
+#overview-video-slide .owl-nav .owl-prev:focus {
+    outline: none;
+}
+#overview-video-slide .owl-nav .owl-prev span {
+    background: var(--theme-color);
+    font-size: 50px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    color: var(--white);
+    padding-top: 5px;
+}
+#overview-video-slide .owl-nav .owl-next:focus {
+    outline: none;
+}
+#overview-video-slide .owl-nav .owl-next span {
+    background: var(--black-color);
+    font-size: 50px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: var(--white);
+    padding-top: 5px;
+}*/
+/**
+================================================================================
+ 9.   our overview section end
+================================================================================
+*/
+/**
+================================================================================
+ 10.    gallery section start
+================================================================================
+*/
+.gallery {
+}
+.single-gallery-image {
+    display: inline-block;
+    margin-left: -4px;
+    width: 16.7%;
+}
+.single-gallery-image img {
+    max-height: 240px;
+}
+/**
+================================================================================
+ 10.    gallery section end
+================================================================================
+*/
+/**
+================================================================================
+ 11.    sponsor section start
+================================================================================
+*/
+.sponsor-section {
+    background: var(--white-color);
+}
+.sponsor-section-title h2 {
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: var(--theme-color);
+    text-align: center;
+    margin-bottom: 40px;
+}
+#sponsor-slide .owl-nav .owl-prev:focus {
+    outline: none;
+}
+#sponsor-slide .owl-nav .owl-prev {
+    position: absolute;
+    left: -60px;
+    top: 35px;
+}
+#sponsor-slide .owl-nav .owl-prev span {
+    font-size: 90px;
+    color: var(--black-color);
+}
+#sponsor-slide .owl-nav .owl-next:focus {
+    outline: none;
+}
+#sponsor-slide .owl-nav .owl-next {
+    position: absolute;
+    right: -60px;
+    top: 35px;
+}
+#sponsor-slide .owl-nav .owl-next span {
+    font-size: 90px;
+    color: var(--black-color);
+}
+/**
+================================================================================
+ 11.    sponsor section end
+================================================================================
+*/
+/**
+================================================================================
+ 12.    newsletter section start
+================================================================================
+*/
+.newsletter-section {
+    background-image: url('../images/newsletter-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+.newsletter-content h3 {
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+    color: var(--white);
+}
+.newsletter-form form i.fa{
+    position: absolute;
+    color: #A1A2A1;
+    z-index: 9999;
+    font-size: 30px;
+    top: 25%;
+    left: 6%;
+}
+.newsletter-form form input#email {
+    position: relative;
+    padding: 21.5px 16% 18.5px 60px;
+    color: #a1a2a1;
+    font-weight: 300;
+    font-size: 20px;
+    border: none;
+}
+.newsletter-form form input#submit {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--white);
+    background: var(--theme-color);
+    border: none;
+    padding: 20px 15px;
+    display: inline-block;
+    margin-left: -5px;
+}
+/**
+================================================================================
+ 12.    newsletter section end
+================================================================================
+*/
+/**
+================================================================================
+ 13.    contact us section start
+================================================================================
+*/
+/*.contact-us-section {
+    background: var(--white);
+    overflow: hidden;
+}*/
+.contact-section-title h2{
+    font-size: 60px;
+    color: var(--theme-color);
+    margin-bottom: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.contact-section-title p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.address-wrap {
+    margin-left: 30px;
+}
+.address-wrap p i {
+    font-size: 25px;
+    color: var(--theme-color);
+    float: left;
+    margin-top: 7px;
+}
+.address-wrap p span {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.address-wrap p strong {
+    margin-right: 15px;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 15px;
+    margin-top: 3px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.address-wrap p.email-address {
+    margin-top: 35px;
+}
+.contact-social-link{
+    margin-left: 30px;
+}
+.contact-social-link h4
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.contact-social-link ul.social-icon {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.contact-social-link ul.social-icon li {
+    float: left;
+}
+.contact-social-link ul.social-icon li a {
+    background: var(--black-color);
+    margin: 0 5px;
+    width: 25px;
+    display: block;
+    border-radius: 5px;
+    height: 25px;
+    text-align: center;
+}
+.contact-social-link ul.social-icon li a:hover{
+    background: var(--theme-color);
+    transition: all 1s;
+}
+.contact-social-link ul.social-icon li:first-child a {
+    margin-left: 0;
+}
+
+.contact-social-link ul.social-icon li a i {
+    color: var(--white-color);
+}
+.contact-social-link ul.social-icon li a:hover {
+    background: var(--theme-color);
+}
+.google-map iframe {
+    border: 15px solid #ddd !important;
+}
+/**
+================================================================================
+ 13.    contact us section end
+================================================================================
+*/
+/**
+================================================================================
+ 14.    footer section start
+================================================================================
+*/
+/*FOOTER TOP START*/
+.footer-top {
+    background: #282828;
+}
+.footer-logo-text h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--theme-color);
+    margin-bottom: 35px;
+}
+.footer-logo-text h1 span {
+    font-family: lato, sans-serif;
+    color: var(--white);
+}
+.footer.social-links{}
+.footer.social-links a i.fa{
+    padding: 8px;
+    font-size: 20px;
+    background: var(--white);
+}
+.footer.social-links a i.fa:hover{
+    background: var(--theme-color);
+}
+.footer.social-links a i.fa-facebook{
+    padding: 8px 12px;
+}
+/*FOOTER TOP END*/
+/*FOOTER MENU START*/
+.footer-menu {
+    text-align: center;
+    background: #1e1e1e;
+}
+ul#footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul#footer-menu li {
+    display: inline-block;
+}
+ul#footer-menu li a {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul#footer-menu li a:hover {
+    color: var(--theme-color);
+    transition: all 1s;
+}
+ul#footer-menu li a:focus {
+    outline: none;
+}
+/*FOOTER MENU END*/
+/*FOOTER BOTTOM AREA START*/
+.footer-bottom{
+    background: #262626;
+}
+.footer-bottom-content p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+    display: inline-block;
+    padding: 30px 0;
+}
+.footer-bottom-content p a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+    display: inline-block;
+}
+.footer-bottom-content p a:hover{
+    color: var(--theme-color);
+}
+.scroll-to-top{
+    position: absolute;
+}
+/*back to top start*/
+.back_to_top i.fa {
+    color: var(--theme-color);
+    font-size: 35px;
+    background: #ccc;
+    padding: 20px;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    z-index: 9999;
+    border-radius: 2px;
+    display: none;
+}
+
+i.fa.fa-arrow-up:hover {
+    cursor: pointer;
+    transform: rotateZ(720deg);
+    transition: all 0.4s;
+}
+/*back to top end*/
+/*FOOTER BOTTOM AREA END*/
+/**
+================================================================================
+ 14.    footer section end
+================================================================================
+*/
+/**
+===================================================================================
+===============================  EVENT PAGE STYLE START  ==========================
+===================================================================================
+ */
+/**
+================================================================================
+ 15.  BREADCRUMB-SECTION START
+================================================================================
+*/
+.breadcumb-section {
+    background-image: url('../images/event/breadcumb_bg.jpg');
+    height: 350px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.breadcumb-section:after {
+    position: absolute;
+    content: "";
+    background: var(--black-color);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+.breadcumb-section h1 {
+    font-family: lato, sans-serif;
+    color: var(--white-color);
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 140px;
+    text-transform: uppercase;
+}
+/**
+================================================================================
+ 15.  BREADCRUMB-SECTION END
+================================================================================
+*/
+/**
+================================================================================
+ 16.  EVENTS DETAILS START
+================================================================================
+*/
+.event-details-section {
+    background-color: #f1f1f1;
+}
+.event-details-section h2 {
+    font-size: 60px;
+    color: #df0024;
+    margin-bottom: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.event-thumb {
+    display: inline-block;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.event-details-section .event-info {
+    background: #fff;
+    overflow: hidden;
+    text-transform: uppercase;
+    padding: 20px 40px;
+}
+/**
+================================================================================
+ 16.  EVENTS DETAILS END
+================================================================================
+*/
+/**
+===================================================================================
+===============================  REGISTRATION PAGE STYLE START  ==========================
+===================================================================================
+ */
+/**
+================================================================================
+ 17.  REGISTRATION FORM START
+================================================================================
+*/
+section.registration-form-section {
+    background: var(--black-color);
+}
+.registration-title h2 {
+    color: var(--white-color);
+    margin-bottom: 65px;
+    margin-left: 35px;
+    font-size: 40px;
+}
+form.registration-form label {
+    color: var(--white-color);
+    display: block;
+}
+form.registration-form label span {
+    color: var(--theme-color);
+}
+form.registration-form input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 0;
+}
+form.registration-form .terms-condition {
+    background: #212121;
+    padding: 35px;
+    margin-top: 45px;
+    border-radius: 12px;
+    display: block;
+}
+input#checkbox {
+    float: left;
+    display: inline-block;
+    width: 0;
+    margin-top: 5px;
+}
+.terms-condition-section p {
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+}
+form.registration-form .terms-condition p {
+    color: var(--white-color);
+}
+form.registration-form .terms-condition h5 {
+    color: var(--theme-color);
+}
+form.registration-form .terms-condition button {
+    background: var(--theme-color);
+    border: none;
+    color: var(--white-color);
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-weight: 700;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+/**
+================================================================================
+ 17.  REGISTRATION FORM END
+================================================================================
+*/

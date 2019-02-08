@@ -1,0 +1,621 @@
+/*Medium Layout: 1280*/
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .section-padding {
+        padding: 70px 0;
+    }
+    ul#login-reg-menu li a {
+        font-size: 13px;
+        padding: 2px 6px;
+    }
+    .logo img {
+        width: 45%;
+    }
+    ul#nav li a {
+        font-size: 13px;
+        padding: 10px;
+    }
+    .item-content h1{
+        font-size: 50px;
+    }
+    .item-content p{
+        font-size: 16px;
+    }
+    #slider .owl-dots {
+        right: 1%;
+    }
+    .events-common-style {
+        padding: 10px 0;
+    }
+    .events-common-style p {
+       font-size: 16px;
+    }
+    .about-content {
+        padding-top: 55px;
+    }
+    .about-content h1 {
+        font-size: 50px;
+    }
+    .about-content p {
+        padding: 25px 0;
+        font-size: 16px;
+    }
+    .single-count h2 {
+        font-size: 28px;
+    }
+    .single-count h2 span {
+        font-size: 140px;
+    }
+    .upcoming-section-title h1 {
+        font-size: 50px;
+    }
+    .sponsor-section-title h2 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .newsletter-content h3 {
+        font-size: 40px;
+    }
+    .newsletter-form form i.fa {
+        font-size: 25px;
+    }
+    .newsletter-form form input#email {
+        padding: 14.5px 95px 13.5px 50px;
+        font-size: 17px;
+    }
+    .newsletter-form form input#submit {
+        font-size: 18px;
+        padding: 14px 10px;
+    }
+    .contact-section-title h2 {
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+    .contact-section-title p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .address-wrap p i {
+        font-size: 20px;
+    }
+    .address-wrap p strong {
+        margin-right: 10px;
+        margin-left: 10px;
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+    .address-wrap p span {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0;
+    }
+    .footer-logo-text h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    /*event page*/
+    .breadcumb-section h1 {
+        font-size: 50px;
+    }
+    .event-details-section h2 {
+        font-size: 50px;
+    }
+}
+
+/*Tablet Layout: 768px*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-padding {
+        padding: 55px 0;
+    }
+    .contact-info span {
+        padding-top: 0px;
+        font-size: 10px;
+    }
+    .social-links a i.fa.fa-facebook {
+        padding: 3px 6px;
+    }
+    .social-links a i.fa {
+        padding: 3px;
+        font-size: 10px;
+    }
+    ul#login-reg-menu li a {
+        font-size: 10px;
+        font-weight: 500;
+        padding: 0 4px;
+    }
+    .logo img {
+        width: 45%;
+    }
+    ul#nav li a {
+        font-size: 10px;
+        font-weight: 400;
+        padding: 5px;
+    }
+    .item-content h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .item-content p {
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #slider .owl-dots {
+        top: 85%;
+        right: 42%;
+        transform: rotateZ(0deg);
+    }
+    .hero-cont-btn a {
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .hero-more-link a {
+        font-size: 12px;
+        padding: 9px 23px;
+        margin-left: 20px;
+    }
+    .events-common-style {
+        padding: 10px 0;
+    }
+    .events-common-style i.fa {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .event-register.events-common-style i.fa {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .events-common-style p {
+        font-size: 12px;
+    }
+    .about-content {
+        padding-right: 10px;
+        padding-left: 25px;
+        padding-top: 36px;
+    }
+    .about-content h1 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .about-content p {
+        padding: 5px 0;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about-btn a {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .single-count h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .single-count h2 span {
+        font-size: 70px;
+        font-weight: 700;
+        padding: 5px 15px;
+        margin-top: 15px;
+    }
+    .single-count h2 span::before {
+        left: 5px;
+        top: 35%;
+    }
+    .single-count h2 span::after {
+        left: 100px;
+        top: 35%;
+    }
+    .single-count h2 span span {
+        left: 14px;
+        top: 34%;
+        width: 75%;
+        padding: 0;
+    }
+    .upcoming-section-title h1 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .event-content h6 {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .event-content h4 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .event-content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #events-slide .owl-nav .owl-prev span {
+        font-size: 40px;
+        margin-right: 15px;
+        width: 30px;
+        height: 30px;
+        padding-top: 0;
+    }
+    #events-slide .owl-nav .owl-next span {
+        font-size: 40px;
+        width: 30px;
+        height: 30px;
+        padding-top: 0;
+    }
+    .sponsor-section-title h2 {
+        font-weight: 700;
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    #sponsor-slide .owl-nav .owl-prev {
+        left: -30px;
+    }
+    #sponsor-slide .owl-nav .owl-prev span {
+        font-size: 65px;
+    }
+    #sponsor-slide .owl-nav .owl-next {
+        right: -30px;
+    }
+    #sponsor-slide .owl-nav .owl-next span {
+        font-size: 65px;
+    }
+    .newsletter-content h3 {
+        font-size: 29px;
+        font-weight: 700;
+    }
+    .newsletter-form form i.fa {
+        font-size: 20px;
+        left: 7%;
+    }
+    .newsletter-form form input#email {
+        padding: 11.5px 52px 8.5px 40px;
+        font-size: 12px;
+    }
+    .newsletter-form form input#submit {
+        font-size: 16px;
+        padding: 10px 14px;
+        margin-left: -5px;
+    }
+    .contact-section-title h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .contact-section-title p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .address-wrap p i {
+        font-size: 20px;
+    }
+    .address-wrap p strong {
+        margin-right: 10px;
+        margin-left: 10px;
+        letter-spacing: 0px;
+        font-size: 14px;
+        margin-top: 2px;
+    }
+    .address-wrap p span {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 19px;
+        letter-spacing: 0px;
+    }
+    .footer-logo-text h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .footer.social-links a i.fa {
+        font-size: 15px;
+    }
+    ul#footer-menu li a {
+        font-size: 15px;
+        padding: 15px;
+    }
+    .footer-bottom-content p {
+        font-size: 15px;
+        padding: 20px 0;
+    }
+    /*event page*/
+    .breadcumb-section h1 {
+        font-size: 40px;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+    .event-details-section h2{
+        font-size: 50px;
+    }
+    .event-thumb {
+        float: left;
+        margin-left: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    /*registration page*/
+    .registration-title {
+        display: block;
+        text-align: center;
+    }
+    .terms-condition-section p {
+        margin-top: -18px;
+    }
+}
+
+/*Mobile Layout: 320px*/
+@media only screen and (max-width: 767px) {
+    p{
+        letter-spacing: 0;
+    }
+    .slicknav_menu {
+        display: block !important;
+    }
+    .section-padding {
+        padding: 30px 0;
+    }
+    .contact-info {
+        display: block;
+        text-align: center;
+    }
+    span.separator {
+        display: none;
+    }
+    .social-links.text-right {
+        display: block;
+        text-align: center !important;
+    }
+    .login-registration-menu {
+        text-align: center;
+        padding: 10px 0;
+    }
+    ul#login-reg-menu li a {
+        font-size: 14px;
+        padding: 4px 26px;
+    }
+    nav.main-menu {
+        display: none;
+    }
+    .logo img {
+        width: 30%;
+    }
+    .item-content h1 {
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center !important;
+    }
+    .item-content p {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center !important;
+        font-weight: 400;
+    }
+    #slider .owl-dots {
+        top: 85%;
+        right: 32%;
+        transform: rotateZ(0deg);
+    }
+    .hero-cont-btn {
+        display: block;
+        text-align: center !important;
+    }
+    .hero-cont-btn a {
+        margin-bottom: 20px;
+        text-align: center !important;
+    }
+    .hero-more-link{
+        display: block;
+        text-align: center !important;
+    }
+    .hero-more-link a {
+        padding: 14px 36px;
+        margin-left: 0;
+    }
+    .events-common-style p {
+        font-size: 16px;
+    }
+    .events-common-style {
+        width: 50%;
+        padding: 5px 0;
+    }
+    .event-calender, .event-time {
+        border-right: none;
+    }
+    .about-image {
+        width: 100%;
+    }
+    .about-content {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 25px;
+    }
+    .about-content h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .about-content p {
+        padding: 10px 0;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0;
+    }
+    .about-btn a {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .single-count h2 {
+        font-size: 12px;
+    }
+    .single-count h2 span {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .single-count h2 span::before {
+        left: 6px;
+        top: 0;
+    }
+    .single-count h2 span::after {
+        left: 50px;
+        top: 0;
+    }
+    .single-count h2 span span {
+        left: 10px;
+        top: -8px;
+        width: 65%;
+    }
+    .upcoming-section-title h1 {
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .event-content h6 {
+        font-size: 12px;
+    }
+    .event-content h4 {
+         font-size: 16px;
+         font-weight: 700;
+     }
+    #events-slide .owl-nav {
+        margin-top: 15px;
+    }
+    #events-slide .owl-nav .owl-prev span {
+        font-size: 35px;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        padding-top: 0;
+    }
+    #events-slide .owl-nav .owl-next span {
+        font-size: 35px;
+        width: 30px;
+        height: 30px;
+        padding-top: 0;
+    }
+    .single-gallery-image {
+        width: 32.7%;
+    }
+    .sponsor-section-title h2 {
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    #sponsor-slide .owl-nav .owl-prev {
+        left: -14px;
+        top: 40%;
+    }
+    #sponsor-slide .owl-nav .owl-prev span {
+        font-size: 50px;
+    }
+    #sponsor-slide .owl-nav .owl-next {
+        right: -14px;
+        top: 40%;
+    }
+    #sponsor-slide .owl-nav .owl-next span {
+        font-size: 50px;
+    }
+    .newsletter-content {
+        display: block;
+        text-align: center;
+    }
+    .newsletter-form {
+        display: block;
+        text-align: center;
+    }
+    .newsletter-content h3 {
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .newsletter-form form i.fa {
+        display: none;
+    }
+    .newsletter-form form input#email {
+        padding: 10.7px 12px 8.5px 27px;
+        font-size: 12px;
+    }
+    .newsletter-form form input#submit {
+        font-size: 14px;
+        padding: 10px 8px;
+    }
+    .contact-section-title h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .contact-section-title p {
+        font-size: 15px;
+        margin-bottom: 20px;
+        letter-spacing: 0;
+    }
+    .address-wrap {
+        margin-left: 0;
+    }
+    .address-wrap p strong {
+        margin-right: 10px;
+        margin-left: 10px;
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+    .address-wrap p span {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0;
+    }
+    .google-map {
+        margin-top: 25px;
+    }
+    .footer-logo-text h1 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .footer.social-links a i.fa {
+        font-size: 15px;
+    }
+    .footer-menu {
+        display: none;
+    }
+    .footer-bottom-content{
+        border-top: 1px dashed #999;
+    }
+    .footer-bottom-content p {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    /*event page*/
+    .breadcumb-section h1 {
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+    .event-details-section h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+    .event-thumb {
+        float: left;
+        margin-left: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .event-details-section .event-info {
+        padding: 20px 10px;
+    }
+}
+/*Wide Mobile Layout: 480px*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #slider .owl-dots {
+        right: 42%;
+    }
+    #sponsor-slide .owl-nav .owl-prev {
+        left: -20px;
+        top: 32%;
+    }
+    #sponsor-slide .owl-nav .owl-next {
+        right: -20px;
+        top: 32%;
+    }
+}
