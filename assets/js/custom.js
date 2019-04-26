@@ -143,7 +143,7 @@ $(document).ready(function(){
     });
 
     /*countdown timer*/
-    $('.countdown').countdown('03/30/2019', function (event) {
+    $('.countdown').countdown('05/30/2019', function (event) {
         $('#count-days').html(event.strftime('%D'));
         $('#count-hours').html(event.strftime('%H'));
         $('#count-minutes').html(event.strftime('%M'));
